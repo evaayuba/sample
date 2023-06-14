@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>MY FIRST WEBSITE</h2>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ELECTRONICS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body style="background-color: rgb(224, 64, 77);"></body>
+    <h2 style="background-color: yellow;">EXAMPLE OF ELECTRONICS DEVICES</h2>
+    <a style="background-color: beige;">"https://www.D-mella.org">study on how to login in this website and how to registered in website</a>
+    <br>
+    <br>
+    <a href="./about">Read all about management system pages.</a> 
+    <br>
+    <br>
+    <center>
+    <img src="Purple.jpg.webp" width="400" height="200" style="background-color: aliceblue;"/>
+    </center>
+    <select id="sample">
+        <option>value="television"</option>
+        <option>value="laptop"</option>
+        <option>value="telphone"</option>
+        <option>value="printers"</option>
+        <option>value="computer desktop"</option>
+        <option>value="ethernet cables"</option>
+    </select>
+    <br>
+    <br>
+    <button onclick="getvalue();">Get value</button>
+    <script type="text/javascript">
+        function getvalue() {
+            var value = document.getElementById('sample').value;
+            alert(value);
+        }
+    </script>
+</body>
+</html>
